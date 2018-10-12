@@ -2,14 +2,17 @@
 
 int main(){
 int Numero;
+int Numero2;
+
 Numero = 1;
+Numero2 = 10;
 
 printf("Hola diego\n");
 
 printf("Hola diego\t");
 
 
-printf("\nMi numero es %d",Numero);
+printf("\nMi primer numero es %d, y el segundo es %d", Numero, Numero2);
 
 Numero = 3;
 
