@@ -1,5 +1,17 @@
-# Plan-De-Becas-STI-IV
+#Plan De Becas STI IV
 
-Promocion 4
+Promocion IV Servicios de TI.
 
-V
+DGTIC-UNAM
+
+Alumno: Diego Mora Monroy  fedo09440@gmail.com
+
+Responsables:
+
+-Laura Liyen Galicia Peñaloza
+-Susana Torres Reynoso
+
+Formacion de Recursos Humanos
+Direccion de Sistemas y Servicios Institucionales
+
+
