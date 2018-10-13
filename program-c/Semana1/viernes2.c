@@ -1,27 +1,55 @@
-#include<stdio.h>
+#include<stdio.h>			//Esto es una calculadora en c
 
-int main();{
+int main(){
 
-int resultado
-int op1
-int op2
+int calculadora; 
+float numero1;
+float numero2;
+float resultado;
 
-printf("Ingrese un float: ");
-scanf(" %f" &numero1);
+printf("Ingrese el primer numero:");
+scanf(" %f", &numero1);
 
-printf("Ingrese un float: ");
-scanf(" %f" &numero2);
+printf("Ingrese el segundo numero:");
+scanf(" %f", &numero2);
 
-printf("Ingrese un caracter: ");
-scanf(" %c" &caracter);
+printf("1 = suma\n");
+printf("2 = resta\n");
+printf("3 = multiplicacion\n");
+printf("4 = division\n");
+scanf(" %d",&calculadora);
 
-	switch(resultado){
-	caso 1:
-		printf("Introduzca un numero");
-		switch(" %c", &
-		  
+	switch(calculadora){
 
-	case
+case 1:
+
+	resultado = numero1 + numero2;
+	break;
+
+case 2:
+
+	resultado = numero1 - numero2;
+	break;
+
+case 3:
+
+	resultado = numero1 * numero2;
+	break;
+
+case 4:
+
+	resultado = numero1 /  numero2;
+	break;
+
+default:
+	printf(" Este no es un numero\n");
+	break;
+}
+
+printf("El resultado es:  %f",resultado);
+
+}
+
 		
 
 
