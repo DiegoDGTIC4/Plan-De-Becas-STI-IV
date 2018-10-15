@@ -6,7 +6,6 @@ int main(){
 float a;
 float b;
 float c;
-float d;
 float y;
 float x1;
 float x2;
@@ -18,18 +17,16 @@ printf("Ingrese el valor2: ");
 scanf(" %f", &b);
 
 printf("Ingrese el valor3: ");
-scanf(" %f",&c);
+scanf(" %f", &c);
 
-d=((b*b)-4*a*c);
 
-{
 
 y = sqrt((b*b)-4*a*c);			//Realizando las operaciones
 x1 = (-b+y) / (2*a);
 x2 = (-b-y) / (2*a);
 
-printf("Los valores de x1 y x2 son %f y %f",x1,x2);
-}
+printf("Los valores de x1 y x2 son: %f y %f\n" ,x1,x2);
+
 
 }
 
