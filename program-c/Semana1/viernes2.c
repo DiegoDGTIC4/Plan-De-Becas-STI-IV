@@ -46,7 +46,7 @@ default:
 	break;
 }
 
-printf("El resultado es:  %f\n",resultado);
+printf("El resultado es: %f\n",resultado);
 
 }
 

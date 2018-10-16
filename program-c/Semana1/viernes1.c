@@ -12,22 +12,22 @@ scanf(" %c",&letra);
 
 	case 'a': 
 	case 'A':
-		printf("Su letra %c es una vocal\n, letra");
+		printf("Su letra %c es una vocal\n", letra");
 		break;
 
 	case 'e':
 	case 'E':
-		printf("Su letra %c es una vocal\n, letra");
+		printf("Su letra %c es una vocal\n", letra");
 		break;
 
 	 case 'i':
          case 'I':
-		printf("Su letra %c es una vocal\n, letra");
+		printf("Su letra %c es una vocal\n", letra");
 		break;
 
 	case 'o':
 	case 'O':
-		printf("Su letra %c es una vocal\n, letra");
+		printf("Su letra %c es una vocal\n", letra");
 		break;
 
 	case 'u':
