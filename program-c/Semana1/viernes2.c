@@ -2,7 +2,7 @@
 
 int main(){
 
-int calculadora; 
+char calculadora; 
 float numero1;
 float numero2;
 float resultado;
@@ -13,30 +13,30 @@ scanf(" %f", &numero1);
 printf("Ingrese el segundo numero:");
 scanf(" %f", &numero2);
 
-printf("1 = suma\n");
-printf("2 = resta\n");
-printf("3 = multiplicacion\n");
-printf("4 = division\n");
-scanf(" %d",&calculadora);
+printf("a = suma\n");
+printf("b = resta\n");
+printf("c = multiplicacion\n");
+printf("d = division\n");
+scanf(" %c",&calculadora);
 
 	switch(calculadora){
 
-case 1:
+case 'a':
 
 	resultado = numero1 + numero2;
 	break;
 
-case 2:
+case 'b':
 
 	resultado = numero1 - numero2;
 	break;
 
-case 3:
+case 'c':
 
 	resultado = numero1 * numero2;
 	break;
 
-case 4:
+case 'd':
 
 	resultado = numero1 /  numero2;
 	break;
