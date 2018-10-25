@@ -23,12 +23,12 @@ printf("Ingrese valor de la varilla3: ");
 scanf("%d", &c);
 
 
-printf("Ingrese valor de la varilla4: ");
-scanf("%d", &d);
 
 
+	if ( a > 0 ){
 
-	if ( 0 >( a > b-c) &&  (a < b+c))
+
+	if (( a > b-c) || (a < b+c))
 	{
 
 	printf("Este es un triangulo\n");
@@ -36,6 +36,11 @@ scanf("%d", &d);
 					}
 	else
 	printf("Este no es un triangulo\n");
+
+	}
+
+	else
+	printf("Esto es un numero negativo\n");
 
 
 
