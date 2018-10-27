@@ -1,11 +1,16 @@
 #include<stdio.h>
+#include<math.h>
+
 
 
 int main ()
 
 {
 
-
+int rem;
+int i = 0;
+int numero = 0;
+int n;
 int convertidor;
 int binario;
 int octal;
@@ -27,18 +32,22 @@ switch(convertidor){
 
 	case 1:
 
-	do{
+	 printf("Ingrese un numero porfavor: ");
+        scanf(" %d", &binario);
 
-	printf("Ingrese un numero porfavor: ");
-	scanf(" %d", &binario);
-	
-	}
+	while ( binario > 0 )
 
+{
 
-	while (binario < 0);
+	rem = binario%2;
+	numero = numero + rem * pow(10,i);
+	i++;
+	binario = binario / 2;
+
+}
+
+	printf("Su numero binario es %d\n", numero);
 	break;
-
-
 
 
 	case 2 :
