@@ -1,3 +1,26 @@
+
+/* Proyecto final : SOPA DE LETRAS
+
+Plan de Becas. Servicios de TI Promoción IV
+
+Curso: Introducción a la programación en c
+
+Integrantes:
+
+Diego Mora Monroy
+
+Cesar Alexis Velazquez Marin
+
+Instructores:
+
+Francisco Martinez Garrido
+Cesar Gustavo Sanchez de la Rosa
+
+*/
+
+
+
+
 #include<stdio.h>
 
 
